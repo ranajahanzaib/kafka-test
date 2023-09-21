@@ -1,0 +1,17 @@
+{
+  "name": "kafka-test",
+  "version": "1.0.0",
+  "description": "Kafka Test for META 1 Coin",
+  "main": "producer.js",
+  "scripts": {
+    "pub": "node publish.js",
+    "sub": "node subscribe.js",
+    "test": "docker-compose down && docker-compose up -d && yarn pub && yarn sub"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafka-node": "^5.0.0"
+  }
+}

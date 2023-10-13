@@ -2,8 +2,6 @@
 
 Publish random 10,000 messages to Kafka and subscribe to them.
 
-https://www.loom.com/share/234db9641a2649419c3cd4a376866db8
-
 ### Getting Started
 
 Start containers
